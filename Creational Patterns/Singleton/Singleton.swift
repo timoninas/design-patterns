@@ -19,3 +19,4 @@ class Singleton {
     
     private static let uniqueValue = Singleton()
 }
+
