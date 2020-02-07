@@ -1,22 +1,12 @@
+import UIKit
 
-class Singleton1 {
+class Settings {
+    static let shared = Settings()
+    
+    var volumeMusic = 0.2
+    var backgroundColor = UIColor.purple
+    var pictureName = "kek.png"
     
     private init() {}
-    
-    private static var uniqueValue: Singleton1?
-    
-    public func get_instance() -> Singleton1 {
-        if Singleton1.uniqueValue == nil {
-            Singleton1.uniqueValue = Singleton1()
-        }
-        return Singleton1.uniqueValue!
-    }
-}
-
-class Singleton {
-    
-    private init() {}
-    
-    private static let uniqueValue = Singleton()
 }
 
