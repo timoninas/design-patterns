@@ -26,7 +26,7 @@
 - Factory method
 - Object pool
 - Prototype
-- Singleton [[Swift](https://github.com/timoninas/design_patterns/blob/master/Creational%20Patterns/Singleton/Singleton.swift)][[C++](https://github.com/timoninas/design_patterns/blob/master/Creational%20Patterns/Singleton/Singleton.cpp)]
+- Singleton [[C++](https://github.com/timoninas/design_patterns/blob/master/Creational%20Patterns/Singleton/Singleton.cpp)][[Swift](https://github.com/timoninas/design_patterns/blob/master/Creational%20Patterns/Singleton/Singleton.swift)]
 - Builder
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ 
 ###### ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀
