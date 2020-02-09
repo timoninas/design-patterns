@@ -20,10 +20,10 @@
 - Facade
 - Bridge
 - Proxy
-
+ 
 ## Creational Patterns
 - Abstract factory
-- Factory method
+- Factory method [[Swift](https://github.com/timoninas/design_patterns/tree/master/Creational%20Patterns/Factory%20method)] 
 - Object pool
 - Prototype
 - Singleton [[C++](https://github.com/timoninas/design_patterns/blob/master/Creational%20Patterns/Singleton/Singleton.cpp)][[Swift](https://github.com/timoninas/design_patterns/blob/master/Creational%20Patterns/Singleton/Singleton.swift)]
