@@ -21,13 +21,11 @@
 - Bridge
 - Proxy
  
- 
- 
 ## Creational Patterns
 - Abstract factory [[Swift](https://github.com/timoninas/design_patterns/tree/master/Creational%20Patterns/Abstract%20factory)]
 - Factory method [[Swift](https://github.com/timoninas/design_patterns/tree/master/Creational%20Patterns/Factory%20method)] 
 - Object pool
-- Prototype
+- Prototype [[Swift](https://github.com/timoninas/design-patterns/tree/master/Creational%20Patterns/Prototype)]
 - Singleton [[C++](https://github.com/timoninas/design_patterns/blob/master/Creational%20Patterns/Singleton/Singleton.cpp)][[Swift](https://github.com/timoninas/design_patterns/blob/master/Creational%20Patterns/Singleton/Singleton.swift)]
 - Builder
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ 
