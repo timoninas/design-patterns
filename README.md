@@ -10,7 +10,7 @@
 | Memento |  |
 | Observer |  |
 | Mediator |  |
-| Strategy |  |
+| Strategy | [Swift](https://github.com/timoninas/design-patterns/blob/master/Behavioral%20Patterns/Strategy/Strategy.swift) |
 | Iterator |  |
 | Visitor |  |
 | State |  |
