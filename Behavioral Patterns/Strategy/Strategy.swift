@@ -17,11 +17,6 @@ class SortBubbleUp: SortBehaviour {
                 }
             }
         }
-        
-        print("Array: ")
-        for i in 0..<array.count {
-            print("\(array[i])")
-        }
     }
 }
 
@@ -61,30 +56,55 @@ protocol OutputBehaviour {
 
 class PrintLikeCode: OutputBehaviour {
     func print(_ array: [Int]) {
+        Swift.print("\n")
         Swift.print(array, separator: "\n", terminator: "")
+        Swift.print("\n")
     }
+    
 }
 
 class PrintSimple: OutputBehaviour {
     func print(_ array: [Int]) {
-        Swift.print("Array: ")
+        Swift.print("\nArray: ")
         for i in 0..<array.count {
             Swift.print(array[i])
         }
+        Swift.print("\n")
     }
 }
 
 class AnyArray {
-    let forSort : SortBehaviour
-    let forOutput : OutputBehaviour
+    private var forSort : SortBehaviour
+    private var forOutput : OutputBehaviour
     
     init(typeSort: SortBehaviour, typeOutput: OutputBehaviour) {
         forSort = typeSort
         forOutput = typeOutput
     }
+    
+    func setSortBehaviour(newSortBehav: SortBehaviour) {
+        forSort = newSortBehav
+    }
+    
+    func setOutputBehaviour(newOutputBehav: OutputBehaviour) {
+        forOutput = newOutputBehav
+    }
+    
+    func sort(array: inout [Int]) {
+        forSort.sort(&array)
+    }
+    
+    func print(array: [Int]) {
+        forOutput.print(array)
+    }
 }
 
 var arrayActions = AnyArray(typeSort: SortInsertionUp(), typeOutput: PrintLikeCode())
 var arr = [5, 2, 7, 1, 4, -2, 112]
-arrayActions.forSort.sort(&arr)
-arrayActions.forOutput.print(arr)
+arrayActions.sort(array: &arr)
+arrayActions.print(array: arr)
+
+arrayActions.setSortBehaviour(newSortBehav: SortBubbleDown())
+arrayActions.setOutputBehaviour(newOutputBehav: PrintSimple())
+arrayActions.sort(array: &arr)
+arrayActions.print(array: arr)
