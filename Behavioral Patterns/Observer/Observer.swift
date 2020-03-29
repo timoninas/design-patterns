@@ -1,7 +1,7 @@
 
 import UIKit
 import Foundation
-var str = "Hello, playground"
+
 
 protocol Observer: class {
     func update()
