@@ -8,7 +8,7 @@
 | Template method |  |
 | Command |  |
 | Memento |  |
-| Observer | [Swift](https://github.com/timoninas/design-patterns/blob/master/Behavioral%20Patterns/Observer/Observer.swift) |
+| Observer | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Observer) |
 | Mediator |  |
 | Strategy | [Swift](https://github.com/timoninas/design-patterns/blob/master/Behavioral%20Patterns/Strategy/Strategy.swift) |
 | Iterator |  |
