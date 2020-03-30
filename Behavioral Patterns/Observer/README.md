@@ -6,7 +6,7 @@
 Когда изменяется состояние одного ViewMain, вам нужно чтобы на других подписанных на него ViewObserver1, ViewObserver1, ... была обновленная информация. Для этого нужен паттерн Смотрящий. В ViewMain будет содержаться пул объектов, которые будут наблюдать за ним. При осуществлении какой-нибудь бизнес логики, ViewMain будет отправлять всем смотрящим за ним объектам notify, что ViewMain перешел в другое состояние.
 
 ## Листинг
-#### Observer.swift
+#### Observer.swift -> [Исходный код](https://github.com/timoninas/design-patterns/blob/master/Behavioral%20Patterns/Observer/Observer.swift)
 ```Swift
 // Протокол (интерфейс) на который мы подписываем наших смотрящих
 protocol Observer: class { // смотрящими могут быть только классы
