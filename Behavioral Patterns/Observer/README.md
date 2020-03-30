@@ -14,12 +14,12 @@ protocol Observer: class { // смотрящими могут быть толь�
 }
 
 class Notifier {
-    private var state: UInt32 = {
+    private var state: UInt32 = {  // Просто переменная 
         return arc4random_uniform(10)
      }()
     
-    private var observers = [Observer]()
-    
+    private var observers = [Observer]() //Пул смотрящих, в который мы будем их добавлять и удалять
+                                         // а также проходится по всем и уведомлять их об изменении
     func add(subject: Observer) { // Добавление объекта в пул объектов
         observers.append(subject)
         print(#function)
