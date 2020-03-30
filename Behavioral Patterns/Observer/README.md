@@ -7,7 +7,7 @@
 
 ## Листинг
 #### Observer.swift
-```
+```Swift
 // Протокол (интерфейс) на который мы подписываем наших смотрящих
 protocol Observer: class { // смотрящими могут быть только классы
     func update()
@@ -89,7 +89,7 @@ func main() {
 }
 ```
 #### Output
-```
+```Swift
 add(subject:)
 add(subject:)
 
