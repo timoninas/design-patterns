@@ -20,7 +20,7 @@
 | Pattern name | :pencil: |
 | --- | --- |
 | Composite |  |
-| Decorator |  |
+| Decorator | [Swift](https://github.com/timoninas/design-patterns/blob/master/Structural%20Patterns/Decorator/Decorator.swift) |
 | Flyweight |  |
 | Adapter |  |
 | Facade |  |
