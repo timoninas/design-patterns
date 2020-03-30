@@ -1,6 +1,4 @@
-
-
-
+import UIKit
 
 
 protocol Observer: class {
@@ -8,67 +6,77 @@ protocol Observer: class {
 }
 
 class Notifier {
-    var state: Int = {
-        return Int(arc4random_uniform(100))
-    }()
+    private var state: UInt32 = {
+        return arc4random_uniform(10)
+     }()
     
-    private lazy var observers = [Observer]()
+    private var observers = [Observer]()
     
-    func add(_ subject: Observer) {
-        print(#function)
+    func add(subject: Observer) {
         observers.append(subject)
-        
+        print(#function)
     }
     
-    func remove(_ subject: Observer) {
-        if let index = observers.firstIndex(where: {$0 === subject}) {
+    func remove(subject: Observer) {
+        if let index = observers.firstIndex(where: { $0 === subject }) {
             observers.remove(at: index)
             print(#function)
         }
-        
     }
     
     func notify() {
         print(#function)
-        for value in observers {
-            value.update()
+        observers.forEach { (subject) in
+            subject.update()
         }
     }
     
     func businessLogic() {
-        print(#function)
-        print("Lol kek businessLogic cheburek ⚗️")
+        print("\n\nBUSINESS LOGIC №\(state)!\n\n")
         notify()
+        print(#function)
     }
 }
 
-class Observer1: Observer {
+class Watcher: Observer {
     func update() {
-        print("Observer1, DO WATCH")
+        let num = arc4random_uniform(10) * arc4random_uniform(10)
+        print("Watcher is watching \(num)")
     }
 }
 
-class Observer2: Observer {
+class Docher: Observer {
     func update() {
-        print("Observer2, play in Metro Exodus")
+        let num = arc4random_uniform(10) * arc4random_uniform(10)
+        print("Docher is doing \(num)")
+    }
+}
+
+class Speacher: Observer {
+    func update() {
+        let num = arc4random_uniform(10) * arc4random_uniform(10)
+        print("Speacher is speaking \(num)")
     }
 }
 
 func main() {
-    let notifier = Notifier()
-    let obs1 = Observer1()
-    let obs2 = Observer2()
+    let obs1 = Watcher()
+    let obs2 = Docher()
+    let obs3 = Speacher()
     
-    notifier.add(obs1)
-    notifier.businessLogic()
+    let notify = Notifier()
     
-    print("\n----- SEPARATOR -----\n")
+    notify.add(subject: obs1)
+    notify.add(subject: obs3)
     
-    notifier.remove(obs1)
-    notifier.add(obs2)
-    notifier.add(obs1)
-    notifier.businessLogic()
+    notify.businessLogic()
+    
+    notify.remove(subject: obs1)
+    
+    notify.add(subject: obs2)
+    notify.add(subject: obs1)
+    
+    notify.businessLogic()
 }
 
 main()
-
