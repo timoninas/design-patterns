@@ -1,87 +1,63 @@
-import UIKit
+import Foundation
 
-protocol PersonalComputerProtocol {
-    func getSpecification() -> String
+
+protocol PCProtocol: class {
     func getPrice() -> Int
+    func getConfiguration() -> String
 }
 
-class BasePC: PersonalComputerProtocol {
-    func getSpecification() -> String {
-        return "PC"
-    }
-    
+class PC: PCProtocol {
     func getPrice() -> Int {
         return 500
     }
+    
+    func getConfiguration() -> String {
+        return "PC"
+    }
 }
 
-class DecoratorPC: PersonalComputerProtocol {
-    private var typePC: PersonalComputerProtocol
+class PCDecorator: PCProtocol {
+    private var PCtype: PCProtocol
     
-    required init(newPC: PersonalComputerProtocol) {
-        self.typePC = newPC
-    }
-    
-    func getSpecification() -> String {
-        return typePC.getSpecification()
+    required init(pc: PCProtocol) {
+        self.PCtype = pc
     }
     
     func getPrice() -> Int {
-        return typePC.getPrice()
+        return PCtype.getPrice()
+    }
+    
+    func getConfiguration() -> String {
+        return PCtype.getConfiguration()
     }
 }
 
-class RtxPC: DecoratorPC {
-    required init(newPC: PersonalComputerProtocol) {
-        super.init(newPC: newPC)
-    }
-    
-    override func getSpecification() -> String {
-        return super.getSpecification() + " with RTX"
-    }
-    
+class PCTrx: PCDecorator {
     override func getPrice() -> Int {
-        return super.getPrice() + 200
+        return super.getPrice() + 250
+    }
+    
+    override func getConfiguration() -> String {
+        return super.getConfiguration() + " with TRX"
     }
 }
 
-class CoolerPC: DecoratorPC {
-    required init(newPC: PersonalComputerProtocol) {
-        super.init(newPC: newPC)
-    }
-    
-    override func getSpecification() -> String {
-        return super.getSpecification() + " with Cooler"
-    }
-    
+class PCWaterCooler: PCDecorator {
     override func getPrice() -> Int {
         return super.getPrice() + 100
     }
+    
+    override func getConfiguration() -> String {
+        return super.getConfiguration() + " with Cooler"
+    }
 }
 
-func separator() {
-    print("\n-------- -------- --------\n")
+class PCRam: PCDecorator {
+    override func getPrice() -> Int {
+        return super.getPrice() + 150
+    }
+    
+    override func getConfiguration() -> String {
+        return super.getConfiguration() + " with 8GB Ram"
+    }
 }
-
-
-func main() {
-    var myPC: PersonalComputerProtocol = BasePC()
-    print(myPC.getPrice())
-    print(myPC.getSpecification())
-    
-    separator()
-    
-    myPC = RtxPC(newPC: myPC)
-    print(myPC.getPrice())
-    print(myPC.getSpecification())
-    
-    separator()
-    
-    myPC = CoolerPC(newPC: myPC)
-    print(myPC.getPrice())
-    print(myPC.getSpecification())
-    
-    separator()
-}
-
-main()
