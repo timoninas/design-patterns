@@ -19,6 +19,8 @@
 
 ## Листинг 
 
+#### Decorator.swift -> [Исходный код](https://github.com/timoninas/design-patterns/blob/master/Structural%20Patterns/Decorator/Decorator.swift)
+
 ```Swift
 import Foundation
 
