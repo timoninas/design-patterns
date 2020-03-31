@@ -22,9 +22,9 @@
 ```Swift
 import Foundation
 
-\\ Необходимый протокол для подписания декоратора и стартового объекта class PC
-\\ Тк мы выделяем PC в отдельный класс, а не наследуем от декоратора, то мы можем
-\\ декорировать также и другие объекты, подписанные на протокол PCProtocol
+// Необходимый протокол для подписания декоратора и стартового объекта class PC
+// Тк мы выделяем PC в отдельный класс, а не наследуем от декоратора, то мы можем
+// декорировать также и другие объекты, подписанные на протокол PCProtocol
 
 protocol PCProtocol: class { 
     func getPrice() -> Int   
@@ -32,7 +32,7 @@ protocol PCProtocol: class {
 }
 
 
-\\ Начальный объект
+// Начальный объект
 class PC: PCProtocol {
     func getPrice() -> Int {
         return 500
@@ -43,8 +43,8 @@ class PC: PCProtocol {
     }
 }
 
-\\ Декоратор для кастомизации Начального объекта
-\\ Просто декоратор никто не вызывает, вызывают обычно его классы-потомки
+// Декоратор для кастомизации Начального объекта
+// Просто декоратор никто не вызывает, вызывают обычно его классы-потомки
 class PCDecorator: PCProtocol {
     private var PCtype: PCProtocol
     
@@ -61,7 +61,7 @@ class PCDecorator: PCProtocol {
     }
 }
 
-\\ Унаследованный класс1 от PCDecorator
+// Унаследованный класс1 от PCDecorator
 class PCTrx: PCDecorator {
     override func getPrice() -> Int {
         return super.getPrice() + 250
@@ -72,7 +72,7 @@ class PCTrx: PCDecorator {
     }
 }
 
-\\ Унаследованный класс2 от PCDecorator
+// Унаследованный класс2 от PCDecorator
 class PCWaterCooler: PCDecorator {
     override func getPrice() -> Int {
         return super.getPrice() + 100
@@ -83,7 +83,7 @@ class PCWaterCooler: PCDecorator {
     }
 }
 
-\\ Унаследованный класс3 от PCDecorator
+// Унаследованный класс3 от PCDecorator
 class PCRam: PCDecorator {
     override func getPrice() -> Int {
         return super.getPrice() + 150
@@ -94,15 +94,15 @@ class PCRam: PCDecorator {
     }
 }
 
-\\ Демонстрация работы паттерна Декоратор
+// Демонстрация работы паттерна Декоратор
 
 func main() {
-  var pc: PCProtocol = PC() \\ Создание начального объекта
+  var pc: PCProtocol = PC() // Создание начального объекта
   
-  pc = PCRam(pc)          \\ Добавляем PC RAM
-  pc = PCWaterCooler(pc)  \\ Добавляем PC Water Cooler
-  pc = PCTrx(pc)          \\ Добавляем PC Trx
+  pc = PCRam(pc)          // Добавляем PC RAM
+  pc = PCWaterCooler(pc)  // Добавляем PC Water Cooler
+  pc = PCTrx(pc)          // Добавляем PC Trx
   
-  \\ Получаем компьютер с ram, water cooler, trx
+  // Получаем компьютер с ram, water cooler, trx
 }
 ```
