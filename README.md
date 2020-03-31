@@ -10,7 +10,7 @@
 | Memento |  |
 | Observer | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Observer) |
 | Mediator |  |
-| Strategy | [Swift](https://github.com/timoninas/design-patterns/blob/master/Behavioral%20Patterns/Strategy/Strategy.swift) |
+| Strategy | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Strategy) |
 | Iterator |  |
 | Visitor |  |
 | State |  |
@@ -20,7 +20,7 @@
 | Pattern name | :pencil: |
 | --- | --- |
 | Composite |  |
-| Decorator | [Swift](https://github.com/timoninas/design-patterns/blob/master/Structural%20Patterns/Decorator/Decorator.swift) |
+| Decorator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Decorator) |
 | Flyweight |  |
 | Adapter |  |
 | Facade |  |
