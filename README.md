@@ -6,7 +6,7 @@
 | --- | --- |
 | Chain of responsbility |  |
 | Template method |  |
-| Command |  |
+| Command | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Command) |
 | Memento |  |
 | Observer | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Observer) |
 | Mediator |  |
