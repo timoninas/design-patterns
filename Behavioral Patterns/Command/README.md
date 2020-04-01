@@ -6,6 +6,14 @@
 
 ```Swift
 
+//
+//  Command.swift
+//  Command
+//
+//  Created by Антон Тимонин on 01.04.2020.
+//  Copyright © 2020 Антон Тимонин. All rights reserved.
+//
+
 import Foundation
 
 class Account {
@@ -29,7 +37,7 @@ class Deposit : Command {
     private var _account: Account
     var isComplete: Bool = false
     var info: String {
-        return "\(_account.accountName) \(#function) \(_amount); "
+        return "\(_account.accountName) Deposit \(_amount); "
     }
     
     init(account: Account, amount: Int) {
@@ -40,6 +48,7 @@ class Deposit : Command {
     
     func execute() {
         _account.balance += _amount
+        isComplete = true
         
     }
 }
@@ -49,7 +58,7 @@ class Withdrawal : Command {
     private var _amount: Int
     private var _account: Account
     var info: String {
-        return "\(_account.accountName) \(#function) \(_amount); "
+        return "\(_account.accountName) Withdrawal \(_amount); "
     }
     var isComplete: Bool = false
     
@@ -61,6 +70,9 @@ class Withdrawal : Command {
     func execute() {
         if _account.balance >= _amount {
             _account.balance -= _amount
+            isComplete = true
+        } else {
+            isComplete = false
         }
     }
 }
@@ -103,4 +115,5 @@ class TransactCenter {
     
     private init() {}
 }
+
 ```
