@@ -1,5 +1,9 @@
 # Паттер Команда
 
+## Демонстрация работы
+
+![Command](https://github.com/timoninas/design-patterns/blob/master/Behavioral%20Patterns/Command/Command.gif)
+
 ## Листинг 
 
 #### Command.swift -> [Исходный код](https://github.com/timoninas/design-patterns/blob/master/Behavioral%20Patterns/Command/Command.swift)
