@@ -22,7 +22,7 @@
 | Composite |  |
 | Decorator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Decorator) |
 | Flyweight |  |
-| Adapter |  |
+| Adapter | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Adapter) |
 | Facade |  |
 | Bridge |  |
 | Proxy |  |
