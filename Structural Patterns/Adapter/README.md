@@ -69,7 +69,6 @@ func main() {
 #### Output
 
 ```Console
-// Output
 // Current ASCII message: [72, 101, 108, 108, 111]
 // Adapted ASCII message: Hello
 ```
