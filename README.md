@@ -23,7 +23,7 @@
 | Decorator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Decorator) |
 | Flyweight |  |
 | Adapter | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Adapter) |
-| Facade |  |
+| Facade | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Facade) |
 | Bridge |  |
 | Proxy |  |
  
