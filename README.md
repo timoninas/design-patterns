@@ -5,7 +5,7 @@
 | Pattern name | :pencil: |
 | --- | --- |
 | Chain of responsbility |  |
-| Template method |  |
+| Template method | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Template%20Method) |
 | Command | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Command) |
 | Memento |  |
 | Observer | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Observer) |
