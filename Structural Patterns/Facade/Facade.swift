@@ -1,5 +1,3 @@
-
-
 class User {
     private let _username: String
     private let _password: String
