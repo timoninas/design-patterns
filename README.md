@@ -11,7 +11,7 @@
 | Observer | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Observer) |
 | Mediator |  |
 | Strategy | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Strategy) |
-| Iterator |  |
+| Iterator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Iterator) |
 | Visitor |  |
 | State |  |
 
