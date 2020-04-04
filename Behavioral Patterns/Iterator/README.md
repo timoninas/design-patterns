@@ -1,5 +1,9 @@
 # Паттерн Итератор
 
+## Назначение
+
+Паттерн итератор необходим для обхода какой-либо структуры данных, не изменяя ее внутрненнего значения
+
 ## Листинг 
 
 #### Iterator.swift -> [Исходный код](https://github.com/timoninas/design-patterns/blob/master/Behavioral%20Patterns/Iterator/Iterator.swift)
