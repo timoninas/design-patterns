@@ -19,7 +19,7 @@
 
 | Pattern name | :pencil: |
 | --- | --- |
-| Composite |  |
+| Composite | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Composite) |
 | Decorator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Decorator) |
 | Flyweight |  |
 | Adapter | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Adapter) |
