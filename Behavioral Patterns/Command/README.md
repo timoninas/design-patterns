@@ -9,15 +9,6 @@
 #### Command.swift -> [Исходный код](https://github.com/timoninas/design-patterns/blob/master/Behavioral%20Patterns/Command/Command.swift)
 
 ```Swift
-
-//
-//  Command.swift
-//  Command
-//
-//  Created by Антон Тимонин on 01.04.2020.
-//  Copyright © 2020 Антон Тимонин. All rights reserved.
-//
-
 import Foundation
 
 class Account {
