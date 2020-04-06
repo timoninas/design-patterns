@@ -25,7 +25,7 @@
 | Adapter | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Adapter) |
 | Facade | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Facade) |
 | Bridge |  |
-| Proxy |  |
+| Proxy | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Proxy) |
  
 ## Creational Patterns
 
