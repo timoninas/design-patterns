@@ -40,7 +40,7 @@
 | Object pool |  |
 | Prototype | [Swift](https://github.com/timoninas/design-patterns/tree/master/Creational%20Patterns/Prototype) |
 | Singleton | [Swift](https://github.com/timoninas/design_patterns/blob/master/Creational%20Patterns/Singleton/)⁣⁣ |
-| Builder |  |
+| Builder | [Swift](https://github.com/timoninas/design-patterns/tree/master/Creational%20Patterns/Builder) |
 
 ⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ 
 ###### ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀
