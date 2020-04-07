@@ -1,4 +1,3 @@
-
 import Foundation
 import UIKit
 
@@ -7,8 +6,8 @@ protocol Builder {
 }
 
 class CatalogBuilder: Builder {
-    var title: String?
-    var backgroundColor: UIColor?
+    private var title: String?
+    private var backgroundColor: UIColor?
     
     func setTitle(title: String) {
         self.title = title
