@@ -37,7 +37,7 @@
 | --- | --- |
 | Abstract factory | [Swift](https://github.com/timoninas/design_patterns/tree/master/Creational%20Patterns/Abstract%20factory) |
 | Factory method | [Swift](https://github.com/timoninas/design_patterns/tree/master/Creational%20Patterns/Factory%20method) |
-| Object pool |  |
+| Object pool | [Swift](https://github.com/timoninas/design-patterns/tree/master/Creational%20Patterns/Object%20pool) |
 | Prototype | [Swift](https://github.com/timoninas/design-patterns/tree/master/Creational%20Patterns/Prototype) |
 | Singleton | [Swift](https://github.com/timoninas/design_patterns/blob/master/Creational%20Patterns/Singleton/)⁣⁣ |
 | Builder | [Swift](https://github.com/timoninas/design-patterns/tree/master/Creational%20Patterns/Builder) |
