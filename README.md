@@ -11,7 +11,7 @@
 | Chain of responsbility | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Chain%20of%20Responsibility) |
 | Template method | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Template%20Method) |
 | Command | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Command) |
-| Memento |  |
+| Memento | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Memento) |
 | Observer | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Observer) |
 | Mediator |  |
 | Strategy | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Strategy) |
