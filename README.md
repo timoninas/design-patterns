@@ -25,7 +25,7 @@
 | --- | --- |
 | Composite | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Composite) |
 | Decorator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Decorator) |
-| Flyweight |  |
+| Flyweight | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Flyweight) |
 | Adapter | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Adapter) |
 | Facade | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Facade) |
 | Bridge |  |
