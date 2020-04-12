@@ -9,6 +9,9 @@
 
 ![Фотокарточка](https://github.com/timoninas/design-patterns/blob/master/Structural%20Patterns/Bridge/screen.png)
 
+На фотокарточке представлен кастомный Day Picker. В Day Picker присутствует абстракция - DataSource, определяющая
+сколько будет ячеек и что в них будет написано
+
 ## Листинг 
 
 #### DayPicker.swift -> [Исходный код](https://github.com/timoninas/design-patterns/blob/master/Structural%20Patterns/Bridge/DayPicker.swift)
