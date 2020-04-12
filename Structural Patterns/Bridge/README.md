@@ -5,6 +5,13 @@
 Паттерн Мост или Bridge, Handle, Body отделяет абстракцию от реализации таким образом, 
 что то и другое можно было изменять независимо
 
+## Фотокарточка экрана
+
+![Фотокарточка](https://github.com/timoninas/design-patterns/blob/master/Structural%20Patterns/Bridge/screen.png)
+
+## Листинг 
+
+#### DayPicker.swift -> [Исходный код](https://github.com/timoninas/design-patterns/blob/master/Structural%20Patterns/Bridge/DayPicker.swift)
 
 ## Листинг 
 
