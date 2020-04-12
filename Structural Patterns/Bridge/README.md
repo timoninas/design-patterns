@@ -16,10 +16,6 @@
 
 #### DayPicker.swift -> [Исходный код](https://github.com/timoninas/design-patterns/blob/master/Structural%20Patterns/Bridge/DayPicker.swift)
 
-## Листинг 
-
-#### DayPicker.swift -> [Исходный код](https://github.com/timoninas/design-patterns/blob/master/Structural%20Patterns/Bridge/DayPicker.swift)
-
 ```Swift
 protocol PickerDayDataSource {
     func pickerDayCount(in pickerDay: UIPickerDayView) -> Int
