@@ -13,7 +13,7 @@
 | Command | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Command) |
 | Memento | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Memento) |
 | Observer | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Observer) |
-| Mediator |  |
+| Mediator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Mediator) |
 | Strategy | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Strategy) |
 | Iterator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Iterator) |
 | Visitor |  |
