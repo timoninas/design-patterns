@@ -39,8 +39,8 @@
 | Factory method | [Swift](https://github.com/timoninas/design_patterns/tree/master/Creational%20Patterns/Factory%20method) |
 | Object pool | [Swift](https://github.com/timoninas/design-patterns/tree/master/Creational%20Patterns/Object%20pool) |
 | Prototype | [Swift](https://github.com/timoninas/design-patterns/tree/master/Creational%20Patterns/Prototype) |
-| Singleton | [Swift](https://github.com/timoninas/design_patterns/blob/master/Creational%20Patterns/Singleton/)⁣⁣ |
-| Builder | [Swift](https://github.com/timoninas/design-patterns/tree/master/Creational%20Patterns/Builder) |
+| Singleton | [Swift](https://github.com/timoninas/design-patterns/tree/develop_cs_patterns/Creational%20Patterns/Singleton/Swift)⁣⁣   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Creational%20Patterns/Singleton/CS/Singleton.cs)|
+| Builder | [Swift](https://github.com/timoninas/design-patterns/tree/master/Creational%20Patterns/Builder)⁣⁣|
 
 ⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ 
 ###### ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀
