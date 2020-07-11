@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 
-
-
 namespace Builder
 {
     // Special label for builder
@@ -34,7 +32,6 @@ namespace Builder
             Console.WriteLine("Label font name: " + _font);
             Console.WriteLine("Label count of line: " + this._countOfLines.ToString());
         }
-
     }
 
     // Director manage with Builder
@@ -54,12 +51,14 @@ namespace Builder
             this._builder.BuildCountOfLine();
         }
     }
+    
     public interface BuilderLabel
     {
         public void BuildFrameLabel();
         public void BuildFont();
         public void BuildCountOfLine();
     }
+    
     public class LittleLabelBuilder : BuilderLabel
     {
         private Label _label;
@@ -78,14 +77,17 @@ namespace Builder
         {
             this._label.setFont("Helvetica, 12 pt.");
         }
+        
         public void BuildCountOfLine()
         {
             this._label.setCountLines(1);
         }
+        
         private void reset()
         {
             _label = new Label();
         }
+        
         public Label getLittleLabel()
         {
             Label resultLabel = this._label;
