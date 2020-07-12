@@ -10,13 +10,16 @@ namespace Prototype
         public double GetShapeArea();
         public void GetInfo();
     }
+    
     class Circle : IFigure
     {
         private uint _radiusCircle;
+        
         public Circle(uint radius)
         {
             this._radiusCircle = radius;
         }
+        
         public IFigure clone()
         {
             return new Circle(this._radiusCircle);
@@ -52,6 +55,7 @@ namespace Prototype
         {
             return this._w * this._h;
         }
+        
         public void GetInfo()
         {
             Console.WriteLine("Shape of this Rectangle: " + this._w + "x" + this._h);
