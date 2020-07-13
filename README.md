@@ -6,7 +6,7 @@
 
 # Design patterns :shipit:
 
-## [Theory]()
+## [Theory](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/theory.md)
 
 ## Behavioral Patterns
 
