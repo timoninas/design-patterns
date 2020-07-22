@@ -1,6 +1,7 @@
 ﻿using System;
 namespace AbstractFactory
 {
+    // ABSTRACT FACTORY
     public abstract class AbstractFactory
     {
         public abstract Application CreateMobileApp();
@@ -8,6 +9,7 @@ namespace AbstractFactory
         public abstract Application CreateWebApp();
     }
 
+    // CONCRETE FACTORY 1
     public class CompanyRegedit : AbstractFactory
     {
         public override Application CreateMobileApp()
@@ -21,6 +23,7 @@ namespace AbstractFactory
         }
     }
 
+    // CONCRETE FACTORY 2
     public class CompanyJukebox: AbstractFactory
     {
         public override Application CreateMobileApp()
@@ -34,6 +37,7 @@ namespace AbstractFactory
         }
     }
 
+    // ABSTRACT APPLICATION
     public abstract class Application
     {
         public string name { get; private set; }
@@ -46,6 +50,8 @@ namespace AbstractFactory
         public abstract void OpenApp();
     }
 
+    
+    // CONCRETE MOBILE APPLICATION 1
     public enum MobileOS
     {
         iOS, Android
@@ -66,6 +72,8 @@ namespace AbstractFactory
         }
     }
 
+
+    // CONCRETE MOBILE APPLICATION 2
     public class MobileApplicationForJukebox : Application
     {
         public MobileOS TypeOS { get; private set; }
@@ -81,6 +89,8 @@ namespace AbstractFactory
         }
     }
 
+
+    // CONCRETE WEB APPLICATION 1
     public enum TypeWebSite
     {
         simple, adapted
@@ -101,6 +111,8 @@ namespace AbstractFactory
         }
     }
 
+
+    // CONCRETE WEB APPLICATION 2
     public class WebApplicationForJukebox : Application
     {
         public TypeWebSite TypeSite { get; private set; }
