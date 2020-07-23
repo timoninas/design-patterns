@@ -33,8 +33,9 @@
 | Adapter | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Adapter) |
 | Facade | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Facade) |
 | Bridge | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Bridge) |
-| Proxy | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Proxy) |
+| Proxy | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Proxy)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Structural%20Patterns/Proxy/CS/Proxy.cs) |
  
+
 ## Creational Patterns
 
 | Pattern name | :pencil: |
