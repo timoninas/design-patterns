@@ -30,7 +30,7 @@
 | Composite | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Composite) |
 | Decorator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Decorator) |
 | Flyweight | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Flyweight) |
-| Adapter | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Adapter) |
+| Adapter | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Adapter)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Structural%20Patterns/Adapter/CS/Adapter.cs) |
 | Facade | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Facade)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Structural%20Patterns/Facade/CS/Facade.cs) |
 | Bridge | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Bridge)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Structural%20Patterns/Bridge/CS/Bridge.cs) |
 | Proxy | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Proxy)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Structural%20Patterns/Proxy/CS/Proxy.cs) |
