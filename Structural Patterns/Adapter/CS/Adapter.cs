@@ -7,7 +7,6 @@ using System.Text;
 namespace Adapter
 {
     // ForeignMachineAdapter: ICashMachine
-
     public class ForeignMachineAdapter: ICashMachine
     {
         public string Number { get; private set; }
@@ -28,9 +27,7 @@ namespace Adapter
         {
             this._machine = machine;
             this.Number = Guid.NewGuid().ToString();
-
         }
-
 
         public void AddProduct(Product product)
         {
@@ -68,6 +65,5 @@ namespace Adapter
                 sw.Write(check);
             }
         }
-        
     }
 }
