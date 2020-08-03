@@ -40,7 +40,6 @@ namespace Adapter
 
         public IReadOnlyList<Product> Products => _products;
 
-
         public Machine()
         {
             this._number = Guid.NewGuid();
