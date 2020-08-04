@@ -20,6 +20,7 @@ namespace Flyweight
             var d = factory.GetFlyweight('d');
             Console.WriteLine($"{d.id}");
 
+            // OUTPUT
             // 594
             // 899
             // 899
