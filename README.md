@@ -28,7 +28,7 @@
 | Pattern name | :pencil: |
 | --- | --- |
 | Composite | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Composite) |
-| Decorator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Decorator) |
+| Decorator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Decorator)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Structural%20Patterns/Decorator/CS/Decorator.cs) |
 | Flyweight | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Flyweight)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Structural%20Patterns/Flyweight/CS/Flyweight.cs) |
 | Adapter | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Adapter)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Structural%20Patterns/Adapter/CS/Adapter.cs) |
 | Facade | [Swift](https://github.com/timoninas/design-patterns/tree/master/Structural%20Patterns/Facade)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Structural%20Patterns/Facade/CS/Facade.cs) |
