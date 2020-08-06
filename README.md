@@ -21,7 +21,7 @@
 | Strategy | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Strategy) |
 | Iterator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Iterator) |
 | Visitor | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Visitor) |
-| State | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/State) |
+| State | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/State)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Behavioral%20Patterns/State/CS/EnabledState.cs) |
 
 ## Structural Patterns
 
