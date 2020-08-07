@@ -20,7 +20,7 @@
 | Mediator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Mediator) |
 | Strategy | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Strategy) |
 | Iterator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Iterator)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Behavioral%20Patterns/Iterator/CS/Iterator.cs) |
-| Visitor | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Visitor) |
+| Visitor | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Visitor)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Behavioral%20Patterns/Visitor/CS/Visitor.cs) |
 | State | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/State)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Behavioral%20Patterns/State/CS/EnabledState.cs) |
 
 ## Structural Patterns
