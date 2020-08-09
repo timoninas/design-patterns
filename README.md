@@ -17,7 +17,7 @@
 | Command | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Command) |
 | Memento | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Memento) |
 | Observer | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Observer) |
-| Mediator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Mediator) |
+| Mediator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Mediator)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Behavioral%20Patterns/Mediator/CS/Mediator.cs) |
 | Strategy | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Strategy)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Behavioral%20Patterns/Strategy/CS/Strategy.cs) |
 | Iterator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Iterator)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Behavioral%20Patterns/Iterator/CS/Iterator.cs) |
 | Visitor | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Visitor)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Behavioral%20Patterns/Visitor/CS/Visitor.cs) |
