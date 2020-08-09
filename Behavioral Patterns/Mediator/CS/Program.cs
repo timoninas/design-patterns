@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Text;
 
 namespace Mediator
@@ -18,10 +18,15 @@ namespace Mediator
             mediator.extractor = extractor;
 
             Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine();
             switcher.SendMessage("Запуск печатающей головки");
             printhead.SendMessage("Распылить краску на бумагу");
             extractor.SendMessage("Закончить распечатывать");
-        }
 
+            // OUTPUT
+            // Printhead: Запуск печатающей головки
+            // PaintExtractor: Распылить краску на бумагу
+            // Switcher: Закончить распечатывать
+        }
     }
 }
