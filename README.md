@@ -14,7 +14,7 @@
 | --- | --- |
 | Chain of responsbility | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Chain%20of%20Responsibility)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Behavioral%20Patterns/Chain%20of%20Responsibility/CS/ChainOfResponsbility.cs) |
 | Template method | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Template%20Method) |
-| Command | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Command) |
+| Command | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Command)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Behavioral%20Patterns/Command/CS/Command.cs) |
 | Memento | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Memento)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Behavioral%20Patterns/Memento/CS/Memento.cs) |
 | Observer | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Observer)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Behavioral%20Patterns/Observer/CS/Observer.cs) |
 | Mediator | [Swift](https://github.com/timoninas/design-patterns/tree/master/Behavioral%20Patterns/Mediator)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Behavioral%20Patterns/Mediator/CS/Mediator.cs) |
