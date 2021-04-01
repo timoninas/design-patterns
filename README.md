@@ -13,6 +13,7 @@
 | Pattern name | :pencil: |
 | --- | --- |
 | MVP | [Swift](https://github.com/timoninas/design-patterns/tree/develop_mvp/Architecture%20Patterns/MVP) |
+| VIPER | [Swift](https://github.com/timoninas/design-patterns/tree/develop_mvp/Architecture%20Patterns/VIPER) |
 
 ## Behavioral Patterns
 
