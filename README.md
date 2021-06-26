@@ -52,7 +52,7 @@
 | Object pool | [Swift](https://github.com/timoninas/design-patterns/tree/master/Creational%20Patterns/Object%20pool/Swift)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Creational%20Patterns/Object%20pool/CS/ObjectPool.cs) |
 | Prototype | [Swift](https://github.com/timoninas/design-patterns/tree/develop_cs_patterns/Creational%20Patterns/Prototype/Swift)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Creational%20Patterns/Prototype/CS/Prototype.cs) |
 | Singleton | [Swift](https://github.com/timoninas/design-patterns/tree/develop_cs_patterns/Creational%20Patterns/Singleton/Swift)⁣⁣   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Creational%20Patterns/Singleton/CS/Singleton.cs)|
-| Builder | [Swift](https://github.com/timoninas/design-patterns/tree/develop_cs_patterns/Creational%20Patterns/Builder/Swift)⁣⁣⁣⁣   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Creational%20Patterns/Builder/CS/Builder.cs)|
+| Builder | [Swift](https://github.com/timoninas/design-patterns/tree/develop_cs_patterns/Creational%20Patterns/Builder/Swift)⁣⁣⁣⁣   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Creational%20Patterns/Builder/CS/Builder.cs)   [Go](https://github.com/timoninas/design-patterns/tree/feature/golang-pattterns/Creational%20Patterns/Builder/Go)|
 
 
 
