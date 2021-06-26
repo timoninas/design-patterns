@@ -1,12 +1,17 @@
 package main
 
 import (
+	"builder/builder"
 	"fmt"
-	"builder/Builder"
 )
 
 func main() {
-	fmt.Println("KekLol")
+	view := builder.NewViewGenerated("BackgroundView")
 
-	builder.Tesass()
+	fmt.Println(view)
+
+	view.SetColor(builder.Green)
+	view.SetSize(builder.Big)
+
+	fmt.Println(view)
 }
