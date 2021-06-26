@@ -1,4 +1,4 @@
-package builder
+package Builder
 
 // MARK:- Color of object
 type Color string

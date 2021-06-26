@@ -1,17 +1,17 @@
 package main
 
 import (
-	"builder/builder"
+	"builder/Builder"
 	"fmt"
 )
 
 func main() {
-	view := builder.NewViewGenerated("BackgroundView")
+	view := Builder.NewViewGenerated("BackgroundView")
 
 	fmt.Println(view)
 
-	view.SetColor(builder.Green)
-	view.SetSize(builder.Big)
+	view.SetColor(Builder.Green)
+	view.SetSize(Builder.Big)
 
 	fmt.Println(view)
 }

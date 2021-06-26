@@ -1,19 +1,19 @@
 package main
 
 import (
-	"factory/factory"
+	"factory/Factory"
 	"fmt"
 	"net/http"
 )
 
 func main() {
 	// MARK:- Family Factory
-	newFamily := factory.NewFamilyFactory("TTT Family")
+	newFamily := Factory.NewFamilyFactory("TTT Family")
 
 	fmt.Println(newFamily("Anton Timonin", 21))
 
 	// MARK:- Transport Factory
-	newTransportFactory := factory.NewTransportFactory(4, 1)
+	newTransportFactory := Factory.NewTransportFactory(4, 1)
 
 	car := newTransportFactory.NewCar("BMW")
 	helycopter := newTransportFactory.NewHelycopter("Aero III")
@@ -22,7 +22,7 @@ func main() {
 	fmt.Println(helycopter)
 
 	// MARK:- Create simple client
-	client := factory.NewSimpleHTTPClient()
+	client := Factory.NewSimpleHTTPClient()
 
 	req := http.Request{}
 	client.Do(&req)
