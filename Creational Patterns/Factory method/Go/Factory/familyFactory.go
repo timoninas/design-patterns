@@ -1,4 +1,4 @@
-package Factory
+package factory
 
 type Person struct {
 	Name   string

@@ -1,4 +1,4 @@
-package Factory
+package factory
 
 type Car struct {
 	WheelsCount int
