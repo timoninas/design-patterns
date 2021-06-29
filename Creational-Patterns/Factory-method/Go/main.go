@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Factory/factory"
+	"patterns/Creational-Patterns/Factory-method/Go/factory"
 	"fmt"
 	"net/http"
 )

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"SomeSingleton/Singleton"
+	"patterns/Creational-Patterns/Singleton/Go/Singleton"
 	"log"
 )
 

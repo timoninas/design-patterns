@@ -1,7 +1,7 @@
 package main
 
 import (
-	"creational_patterns/Prototype/Go/prototype"
+	"patterns/Creational-Patterns/Prototype/Go/prototype"
 )
 
 func main() {

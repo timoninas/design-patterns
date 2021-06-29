@@ -1,8 +1,8 @@
 package main
 
 import (
-	"builder/Builder"
 	"fmt"
+	"patterns/Creational-Patterns/Builder/Go/Builder"
 )
 
 func main() {
