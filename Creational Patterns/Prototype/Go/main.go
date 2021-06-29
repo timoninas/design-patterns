@@ -1,10 +1,9 @@
 package main
 
 import (
-	"patterns/Prototype/prototype"
+	"creational_patterns/Prototype/Go/prototype"
 )
 
 func main() {
 	prototype.TestWorkPrototype()
 }
-
