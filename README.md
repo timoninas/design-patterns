@@ -47,7 +47,7 @@
 
 | Pattern name | :pencil: |
 | --- | --- |
-| Abstract factory | [Swift](https://github.com/timoninas/design_patterns/tree/master/Creational%20Patterns/Abstract%20factory/Swift)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Creational%20Patterns/Abstract%20factory/CS/AbstractFactory.cs) |
+| Abstract factory | [Swift](https://github.com/timoninas/design_patterns/tree/master/Creational%20Patterns/Abstract%20factory/Swift)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Creational%20Patterns/Abstract%20factory/CS/AbstractFactory.cs)   [Go](https://github.com/timoninas/design-patterns/tree/feature/golang-pattterns/Creational-Patterns/Abstract-factory/Go) |
 | Factory method | [Swift](https://github.com/timoninas/design_patterns/tree/master/Creational%20Patterns/Factory%20method/Swift)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Creational%20Patterns/Factory%20method/CS/Company.cs)   [Go](https://github.com/timoninas/design-patterns/tree/feature/golang-pattterns/Creational%20Patterns/Factory%20method/Go) |
 | Object pool | [Swift](https://github.com/timoninas/design-patterns/tree/master/Creational%20Patterns/Object%20pool/Swift)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Creational%20Patterns/Object%20pool/CS/ObjectPool.cs) |
 | Prototype | [Swift](https://github.com/timoninas/design-patterns/tree/develop_cs_patterns/Creational%20Patterns/Prototype/Swift)   [С#](https://github.com/timoninas/design-patterns/blob/develop_cs_patterns/Creational%20Patterns/Prototype/CS/Prototype.cs)   [Go](https://github.com/timoninas/design-patterns/tree/feature/golang-pattterns/Creational%20Patterns/Prototype/Go) |
